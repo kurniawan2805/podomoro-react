@@ -1,0 +1,57 @@
+.Podomoro .timer {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.Podomoro .alert {
+  font-size: 1rem;
+  padding: 3rem;
+  margin-bottom: 1rem;
+}
+
+.Podomoro .alert.init {
+  background: #d4d4d4;
+}
+
+.Podomoro .alert.work {
+  background: #5da423;
+}
+
+.Podomoro .alert.shortBreak {
+  background: #f4ad42;
+}
+
+.Podomoro .alert.longBreak {
+  background: #2ba6cb;
+}
+
+.Podomoro .alert.buz {
+  background: #c60f13;
+}
+
+.Podomoro button {
+  background: #2ba6cb;
+  border: 1px solid #1e728c;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.Podomoro button.short {
+  background-color: #f4ad42;
+  border: 1px solid #dd962a;
+}
+
+.Podomoro button.start {
+  background-color: #5da423;
+  border: 1px solid #396516;
+}
